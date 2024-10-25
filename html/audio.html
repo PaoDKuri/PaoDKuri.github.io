@@ -1,0 +1,99 @@
+<html> 
+    <head>
+        <title>Audio</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        <style type="text/css">
+        
+            header, nav, main, footer{
+                width: 100%;
+            } 
+            header {
+                color:azure;
+            }
+            
+            main {
+                text-align: center;
+                color:azure;
+            }
+            section {
+                width: 40%;
+                height: 330px;
+                display: inline-block;
+                margin: 8px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                overflow: hidden;
+            }
+            audio, iframe {
+                display: block;
+                margin: 30px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIO EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas .html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="Audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="Formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="mantra"> 
+            <h2>Los Mantras</h2>
+            <p>Los mantras son palabras, frases o sonidos repetidos durante la meditación y prácticas espirituales, diseñados para enfocar la mente, generar energía positiva o invocar intenciones específicas. Originarios de tradiciones como el hinduismo y el budismo, los mantras se consideran herramientas poderosas en el camino espiritual. Se caracterizan por su repetición, que puede ser en voz alta o en silencio, y por la creencia de que cada mantra produce una vibración única que afecta al cuerpo y la mente.</p>
+                <audio controls>
+                    <source src="../medios/audio/code.mp3" type="audio/mp3">
+                    Tu navegador no soporta el formato de audio.
+                </audio>
+            </section>
+            <section id="funny"> 
+            <h2>Funny Music Autoplay y Mute</h2>
+                <p>La música alegre tiene un impacto significativo en el estado de ánimo y el bienestar general de las personas. Su influencia se manifiesta en varios aspectos importantes. En primer lugar, mejora el estado de ánimo al elevar la felicidad y generar sensaciones de placer. Las melodías contagiosas y los ritmos optimistas activan la liberación de neurotransmisores como la dopamina, lo que provoca sentimientos de satisfacción. Además, la música alegre actúa como un potente antídoto contra el estrés y la ansiedad, ayudando a distraer la mente de pensamientos negativos y preocupaciones, permitiendo a las personas relajarse y disfrutar del momento presente.</p>
+                 <audio controls muted autoplay>
+                     <source src="../medios/audio/quirk.mp3" type="audio/mp3">
+                     Tu navegador no soporta el formato de audio.
+                </audio>
+            </section>
+             <section id="relax"> 
+            <h2>Relax LOOP</h2>
+                <p>La música tranquila tiene un efecto profundamente relajante en el estado de ánimo y el bienestar emocional de las personas. Este tipo de música, que a menudo incluye géneros como el ambient, el jazz suave o la música clásica, está diseñada para calmar la mente y reducir el estrés. Las melodías suaves y los ritmos lentos ayudan a crear un ambiente sereno, lo que facilita la concentración, la meditación y el descanso. Escuchar música tranquila puede disminuir la ansiedad y promover un estado de paz interior, lo que es especialmente beneficioso en momentos de tensión o fatiga.</p>
+                <audio controls loop>
+                    <source src="../medios/audio/ambiente.mp3" type="audio/mp3">
+                     Tu navegador no soporta el formato de audio.
+                 </audio>
+            </section>
+             <section id="pc"> 
+            <h2>Audio Externo Podcast: Mark Wolynn</h2>
+                <p>En esta obra maestra de terapia transgeneracional, Mark Wolynn explora las raíces de los patrones emocionales heredados y nos guía hacia la transformación de nuestro dolor no resuelto. Aprenderás a liberarte de las cargas emocionales que no te pertenecen y a sanar heridas ancestrales que han estado influyendo en tu vida sin que te des cuenta.Este episodio es una oportunidad única para sumergirte en el poderoso mensaje de Wolynn. </p>
+                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1e6MbHx0oJDa1dgLpLxRFt?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section id="sf"> 
+            <h2>Playlist Spotify: GUTS-Olivia Rodrigo</h2>
+                <p>Álbum de 2023 de la artista Olivia Rodrigo, ganadora de tres premios Grammy. Guts fue grabado con el productor Daniel Nigro, quien también colaboró con ella en Sour, su álbum debut 4 veces platino que encabezó las listas de éxitos. "Para mí, este álbum trata sobre los dolores de crecimiento y sobre tratar de descubrir quién soy en este momento de mi vida y exactamente lo que quiero decir en mis canciones". </p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1D06fz3cuob62ysTS8k6gu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+			<nav id="menu">
+                <ul>
+                    <li><a href="#mantra">Mantra</a></li>
+                    <li><a href="#funny">Funny</a></li>
+                    <li><a href="#relax">Relax</a></li>
+                    <li><a href="#pc">Podcast</a></li>
+					<li><a href="#sf">Spotify</a></li
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5>Elaborado por Paola D.K</h5>
+        </footer>
+    </body>
+</html>

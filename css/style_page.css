@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 100%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    header{
+    background-color: #EB7096;
+    color:#FFFFFF; 
+    text-align: center;
+	font-family: CocogooseProTrial; 
+}
+nav{
+    height: 50px;
+    background-color: #CCD1DB;
+    }
+nav ul {
+    text-align: center;
+}
+nav ul li { 
+    display: inline-block;
+    width: 90px;
+    background-color: #858FB4;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 18px;
+	text-decoration: none;
+	font-family: Fira Sans Compressed;
+}
+main {
+    height: auto;
+    background-color: #EBBAC2;
+    color: #FFFFFF;
+	font-family:Fira Sans Compressed;
+}
+section { 
+    width:950px;
+    height: auto;
+    background-color: #EB7096;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+footer{
+    height: 20px;
+    background-color: #000000;
+    color: #fbffcd;
+	text-align: center;
+	font-family: CocogooseProTrial; 
+}
+img{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    margin-bottom: 20px;
+	font-family: CocogooseProTrial; 
+}
+#menu{
+    width: 75%;
+	
+    border-radius: 20px;
+	text-decoration: none;
+    background-color: #CCD1DB;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#aperol_img{
+    width: 260px;
+    height: auto;
+    float: right;
+    padding-left: 12px;
+}
+p{
+    margin-bottom: 15px;
+}
+#pao_img{
+	width: 100px;
+    height: auto;
+    float: right;
+    padding-right: 5px;
+	padding-bottom: 15px;
+}
+#choco_img{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-right: 12px;
+}
+#cake_icon{
+    width: auto;
+    height: auto;
+    display: block;
+    margin-right: 0;
+}
+#img_filtros {
+    text-align: center;
+    
+}
+#img_filtros img {
+    width: 30%;
+    height: auto;
+    margin: 12px;
+    display: inline-block;
+}
+#filtro1{
+    filter: brightness(150%);
+}
+#filtro2{
+    filter: contrast(180%);
+}
+#filtro3{
+    filter: grayscale(80%);
+}
+#filtro4{
+    filter: sepia(100%);
+}
+#filtro5{
+    filter: saturate(150%);
+}
+#filtro6{
+    filter: opacity(0.5);
+}
+#filtro7{
+    filter: invert(100%);
+}
+#filtro8{
+    filter: blur(3px);
+}
+#filtro9{
+    filter:drop-shadow(10px 10px 8px pink);
+}
+#filtro10{
+    filter:contrast(130%) drop-shadow(15px 20px 5px  #956133);
+}
+#filtro11{
+    filter: hue-rotate(90deg) grayscale(30%) brightness(100%);
+}
+#filtro12{
+    filter: hue-rotate(270deg)invert(20%)blur(.5px);
+}
+
+table{
+    color: azure;
+    margin: 0 auto;
+    padding: 10px;
+    border: 8px solid #A22290;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.tabla1{
+    width: 750px;
+        border-collapse: collapse;
+
+}
+.tabla1 th{
+    background-color: #79ae92;
+    height: 40px;
+}
+.tabla1 tbody{
+    background-color: #fbffcd;
+    color: #001f36; 
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.tabla1 td, .tabla1 th{
+    border: 6px ridge #0EA7A1;
+}
+#tabla1 th{
+    width: 900px;
+}
+
+
+
+#tabla2{
+    width: 800px;
+    border:5px solid #4f80e2;
+    border-collapse: collapse;
+}
+#tabla2 td{
+    padding: 2px;
+    text-align: center;
+    height: 30px;
+}
+#tabla2 th{
+    width:700px ;
+}
+#tabla2 thead tr th{
+    background-color: #4f80e2;
+}
+#tabla2 tbody tr:nth-child(even){
+    background-color: #4fe0b6;
+    border: 3px solid
+}
+#tabla2 tbody tr:nth-child(odd){ 
+background-color: #15cdca;
+    border: 3px solid
+    }
+
+
+
+#tabla3{
+  width: 650px;
+  border: 5px solid darkorchid;
+          border-collapse: collapse;
+
+}
+#tabla3 td{ 
+    padding: 2px;
+    text-align: center;
+    height: 30px;
+}
+#tabla3 tr th, #tabla3 tr td{
+    border: 3px solid darkorchid;
+    padding: 5px;
+}
+#tabla3 thead tr th{
+    background-color: #7283bc;
+        color: floralwhite;
+}
+#tabla3 tbody tr{
+    background-color: #b3e1df;
+        color: #7283bc;
+
+}
+#tabla3 tr:hover{
+    background-color: darkorchid;
+    color: #7283bc;
+    width: 30%;
+    height: 70%;
+    padding-top: 10px;
+} 
+form {
+    width: 55%;
+    height: auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFFC7;
+    color: #142463;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+label  {
+    color: #005662;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: left;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+#form2 #select {
+}
+input[type=text] , input[type=password] {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=submit]  {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 35%;
+    height: 20px;
+    background-color: #002038;
+    color: #FFFFFF;
+}
+#form2 #number {
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+#form2 #select {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+#form3 #number2 {
+    margin-top: 5px;
+    margin-bottom: 6px;
+    width: 15%;
+    height: 15pt;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    font-size: small;
+}
+label {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+#form3 label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#form3 #tel {
+    width: 50%;
+    height: 25px;
+}
+#form3 #email {
+    width: 50%;
+    height: 25px;
+    font-style: italic;
+}
+#form3 #range {
+    width: 90%;
+    height: 30pt;
+    color: #005762;
+}
+#form3 #color {
+    height: 80px;
+    width: 90%;
+}
+#form3 #fileField {
+    width: 90%;
+    height: 50pt;
+}
+#form3 #url {
+    width: 90%;
+    height: 25pt;
+}
+#form3 #submit3  {
+    margin-top: 15px;
+    height: 30pt;
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+}
+#form3  #reset  {
+    margin-top: 15px;
+    height: 30pt;
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
