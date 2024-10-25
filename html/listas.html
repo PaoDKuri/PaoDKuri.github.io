@@ -1,0 +1,189 @@
+<!-- Por: Paola Duran Kuri
+2024 Agosto 22
+-->
+<html>
+    <head>
+        <title>Listas</title>
+        <style type="text/css">
+            *{
+                margin:0px;
+                padding: 0px;
+            }
+            header,nav,main,foother{
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+            }
+            header,footer{
+                color:darkgoldenrod;
+            }
+            header{
+    width: 1000px;
+    height: 75px;
+    background-color: cornsilk;
+    font-size: 32px;
+            }
+            nav{
+    height: 25px;
+    background-color: burlywood;
+    display: block;
+    width: 1000px;
+            }
+            nav ul{
+                list-style-type: none;
+                text-align: center;}
+            nav li{
+                display:inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 66px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 5px;
+                border-radius: 15px;
+            }
+            main{
+    /* [disabled]height: 1320px; */
+    background-color: antiquewhite;
+    width: 1000px;
+            }
+			#menu{
+    width: 75%;
+	
+    border-radius: 20px;
+	text-decoration: none;
+    background-color: #CCD1DB;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+            section{
+    width: 730px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: floralwhite;
+    padding: 46px;
+            }
+            ol, ul{
+                padding-left: 35px;
+            }
+            footer{
+    height: 50px;
+    width: 1040px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+            }
+            h2{
+                padding-bottom: 20px;
+            }
+            h5{
+                font-size: : 14px;
+            }
+            h1, h5{
+                text-align: center;
+            }
+            
+        ul li a {
+    width: 17%;
+}
+#menu ul {
+    width: 110%;
+    height: 114%;
+    margin-top: -12px;
+    /* [disabled]margin-right: -4px; */
+    padding-top: 3px;
+    padding-right: 14px;
+}
+        a {
+    width: 14%;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Listas en HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="viñeta">
+                <h2>Lista ordenada o con viñeta numerada</h2>
+                <ol>
+                    <li>Alejandra B</li>
+                    <li>Araceli S</li>
+                    <li>Beatriz M</li>
+                    <li>Diana V</li>
+                    <li>Gael V</li>
+                    <li>Mauricio M</li>
+                </ol>
+            </section>
+            <section id="des">
+                <h2>Lista desordenada o con viñeta de iconos</h2>
+                <ul>
+                    <li>Shampoo</li>
+                    <li>Acondicionador</li>
+                    <li>Jabon corporal</li>
+                    <li>Pasta dental</li>
+                    <li>Servilletas</li>
+                    <li>Papel</li>
+                </ul>
+            </section>
+            <section id="mixta">
+                <h2>Lista Mixta</h2>
+                <ol>
+                    <li>España</li>
+                    <li>Suiza</li>
+                    <li>Francia</li>
+                        <ul>
+                            <li>Paris</li>
+                            <li>Marsella</li>
+                            <li>Burgos</li>
+                            <li>Toulouse</li>
+                            <li>Niza</li>
+                        </ul>
+                    <li>Italia
+                        <ul>
+                            <li>Venecia
+                                <ul>
+                                    <li>San Marco</li>
+                                    <li>Cannaregio</li>
+                                    <li>Tessera</li>
+                                    <li>Borgo Forte</li>
+                                </ul>
+                            </li>
+                            <li>Florencia</li>
+                            <li>Siena</li>
+                            <li>Verona</li>
+                            <li>Palermo</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+			<nav id="menu">
+                <ul>
+                    <li><a href="#viñeta">L. Ordenada</a></li>
+                    <li><a href="#des">L.Desordenada</a></li>
+                    <li><a href="#mixta">L. Mixta</a></li>
+                    
+                </ul>
+            </nav>
+        </main>
+        <footer>
+        <h5>Elaborado por Paola Duran Kuri</h5>
+        </footer>
+    </body>
+</html>
